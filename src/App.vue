@@ -1,17 +1,17 @@
 <template>
   <div id="app">
-    <tweetsComp/>
+    <TweetsComp/>
   </div>
   
 </template>
 
 <script>
-import tweetsComp from '@/components/tweetsComp.vue';
+import TweetsComp from '@/components/TweetsComp.vue';
 
 export default {
   name: 'App',
   components: {
-    tweetsComp
+    TweetsComp
   }
 }
 </script>
